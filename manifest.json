@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "AutoClick",
+    "version": "1.0",
+    "description": "Automates clicking elements on webpages",
+    "permissions": ["activeTab", "storage"],
+    "background": {
+      "scripts": ["background.js"]
+    },
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
